@@ -18,7 +18,7 @@ This example is an extended version of the example code given in the [LocalFileS
 
 1. Create or append to a file, "out.txt", on the local file system.  The line "Hello World!" is added to the end.
 2. Open out.txt for reading and print its contents.  You should see a number of "Hello World!" messages equal to the number of times you've run the example.
-3. Print all the files on the LocalFileSystem.  You should see "out.txt" show up, plus any additional files you've added.
+3. Print all the file names on the LocalFileSystem.  You should see "out.txt" show up, plus any additional files you've added.
 
 After running the example, you should be able to see out.txt from the computer, with the correct contents.  Note that you might have to unplug and replug the board before you can see it (seems to be some sort of bug in the interface).
 

@@ -3,7 +3,7 @@ cmake_policy(VERSION 3.19)
 
 # Initialize Mbed OS build system. 
 # Note: This block must be before the include of app.cmake
-set(MBED_APP_JSON_PATH mbed_app.json)
+set(MBED_APP_JSON_PATH mbed_app.json5)
 
 include(mbed-os/tools/cmake/app.cmake)
 add_subdirectory(mbed-os)
